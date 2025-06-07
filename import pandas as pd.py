@@ -8,7 +8,7 @@ plt.rcParams['font.family'] = 'Microsoft JhengHei'
 plt.rcParams['axes.unicode_minus'] = False
 
 # 讀取資料
-file_path = r"C:\\Users\\User\Downloads\\104_jobs.csv"  # 請根據你的實際路徑修改
+file_path = r"C:\\Users\\User\\Downloads\\104-web-climber-main\\104_jobs.csv"  # 請根據你的實際路徑修改
 df = pd.read_csv(file_path)
 
 # 顯示欄位確認

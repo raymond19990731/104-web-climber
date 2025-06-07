@@ -64,7 +64,7 @@ for scroll in range(10):  # 可調整滾動次數（每次大約 10-15 筆）
 driver.quit()
 
 # 匯出 CSV
-folder_path = "C:\\Users\\User\Downloads\\"
+folder_path = "C:\\Users\\User\\Downloads\\104-web-climber-main"
 os.makedirs(folder_path, exist_ok=True)  # 若資料夾不存在就建立
 
 # 建立完整檔案路徑
